@@ -6,3 +6,28 @@
 h1 {
     font-size: 2rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
