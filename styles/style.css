@@ -1,5 +1,5 @@
 :root {
-    --clr-dark: ;
+    --clr-dark:#020618;
     --clr-light: oklch(96.8% 0.007 247.896) ;
     --clr-slate400: oklch(70.4% 0.04 256.788) ;
     --clr-slate600: oklch(44.6% 0.043 257.281) ;
@@ -23,6 +23,8 @@ html {
 
 body {
     font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
 }
 
 img,
@@ -40,4 +42,13 @@ button {
     padding: 0;
     border: none;
     cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: var(--clr-rose);
+}
+
+strong {
+    color: var(--clr-indigo);
 }
