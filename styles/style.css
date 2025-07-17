@@ -1,3 +1,13 @@
+:root {
+    --clr-dark: ;
+    --clr-light: oklch(96.8% 0.007 247.896) ;
+    --clr-slate400: oklch(70.4% 0.04 256.788) ;
+    --clr-slate600: oklch(44.6% 0.043 257.281) ;
+    --clr-slate800: oklch(27.9% 0.041 260.031) ;
+    --clr-rose: oklch(58.6% 0.253 17.585) ;
+    --clr-indigo: oklch(51.1% 0.262 276.966);
+}
+
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
