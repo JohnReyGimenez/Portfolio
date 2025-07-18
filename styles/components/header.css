@@ -44,3 +44,20 @@
 .header__link:hover {
     color: var(--clr-accent);
 }
+
+.header__line {
+    border: 1px solid var(--clr-slate600);
+    padding-top: 1.5em;
+}
+
+.header__sun {
+    display: block;
+    background-color: var(--clr-dark);
+    color: var(--clr-slate600);
+    width: var(--size-base);
+    height: var(--size-base);
+}
+
+.header__resume {
+    font-size: var(--size-xs);
+}
