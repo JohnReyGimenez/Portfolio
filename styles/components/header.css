@@ -72,7 +72,21 @@
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .header__link {
+        font-size: var(--size-sm);
+    }
+    
+    
+    .header__sun {
+        width: var(--size-xL);
+        height: var(--size-xL);
+    }
+    
+    .header__resume {
+        font-size: var(--size-sm);
+    }
+}
 
 /* xL */
 /* @media (min-width: 1280px) {} */
