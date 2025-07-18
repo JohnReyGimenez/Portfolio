@@ -6,16 +6,18 @@
     padding-bottom: 2rem;
 }
 
+
 .header__menu {
     display: none;
 }
 
 .header__bars {
-    color: var(--clr-light);
-    width: var(--size-2xL);
-    height: var(--size-2xL);
     display: block;
-}
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    width: 2rem;
+    height: 2rem;
+  }
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -66,6 +68,7 @@
     .header__bars {
         display: none;
     }
+
 }
 
 /* Lg */
