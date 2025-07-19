@@ -79,8 +79,8 @@
     
     
     .header__sun {
-        width: var(--size-xL);
-        height: var(--size-xL);
+        width: var(--size-xl);
+        height: var(--size-xl);
     }
     
     .header__resume {
