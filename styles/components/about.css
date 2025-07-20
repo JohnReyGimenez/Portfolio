@@ -18,3 +18,19 @@
 .about__hr {
     border-color: var(--clr-slate800);
 }
+
+.about__subtitle {
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.about__ul li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-left: 2.5em;
+}
+
+.about__ul i {
+    font-size: 1.2rem;
+}
