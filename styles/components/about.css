@@ -24,13 +24,27 @@
     color: var(--clr-slate400);
 }
 
+.about__ul-container {
+    display: flex;
+}
+
 .about__ul li {
     display: flex;
     align-items: center;
     gap: 1em;
-    padding-left: 2.5em;
+    padding-left: 1em;
 }
 
 .about__ul i {
     font-size: 1.2rem;
+}
+
+.about__list {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__list::before {
+    content: '';
+    margin-left: 0.5em;
 }
