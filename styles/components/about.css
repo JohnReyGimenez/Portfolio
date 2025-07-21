@@ -33,6 +33,12 @@
 
 .about__ul-container {
     display: flex;
+    padding-left: 0;
+}
+
+.about__ul {
+  padding-right: 0px;
+  padding-top: 0px;
 }
 
 .about__ul li {
@@ -40,6 +46,7 @@
     align-items: center;
     gap: 0em;
     padding-left: 0em;
+    padding-top: 1em;
     flex: 1;
 }
 
