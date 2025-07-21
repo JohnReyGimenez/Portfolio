@@ -37,8 +37,15 @@
 }
 
 .about__ul {
-  padding-right: 0px;
+  padding-left: 0px;
   padding-top: 0px;
+}
+
+i {
+  padding-right: 10px;
+}
+.about__ul-2nd {
+ padding-left: 150px;
 }
 
 .about__ul li {
